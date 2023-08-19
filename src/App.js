@@ -9,6 +9,7 @@ import Navbar from './component/Navbar';
 import Description from './Description';
 import Home from './component/Home';
 import Trailer from './component/Trailer';
+import Footer from './component/Footer';
 
 function App() {
   const [movies, setmovies] = useState([
@@ -93,14 +94,14 @@ rating:5,
     <div className="App">
       <header className="App-header">
 <Navbar settext={settext} setrate={setrate} />
-<Home/>
+
 
 
     <Routes>
     <Route path='/movielist' element={<MovieList movies={movies} setmovies={setmovies} text={text} rate={rate} />} />
       <Route path='/contact' element={<Contact />} />
-      
-      <Route path='/about' element={<Abouut />} />
+      <Route path='/' element={<Home />} />
+      <Route path='/abouut' element={<Abouut />} />
      <Route path='/trailer/:id' element={<Trailer movies={movies} />} />
       <Route path='/description' element={<Description />} />
     </Routes>

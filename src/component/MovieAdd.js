@@ -18,9 +18,9 @@ const MovieAdd = ({ movies, setmovies }) => {
   };
   return (
     <div> <>
-    <Button variant="outline-info" onClick={handleShow} style={{width:'100%', fontSize:'100%', marginTop:'20px'}}>
+    <button variant="outline-info" onClick={handleShow} className='bbbbb'>
      +ADD MOVIE+
-    </Button>
+    </button>
 
     <Modal show={show} onHide={handleClose} animation={false}>
       <Modal.Header closeButton>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap';
 import ReactStars from 'react-rating-stars-component';
 import { useParams } from 'react-router-dom';
+import Footer from './Footer';
 
 const Trailer = ({ movies }) => {
     const params=useParams();
@@ -17,6 +18,7 @@ const Trailer = ({ movies }) => {
                 Play trailer on YouTube
       </Button>
     </div>
+   
     </div>
   )
 }

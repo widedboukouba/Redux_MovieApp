@@ -1,11 +1,12 @@
 import React from 'react'
 
 import Carousel from 'react-bootstrap/Carousel';
+import Footer from './component/Footer';
 const Description = () => {
   return (
     <div > 
    
-    <h1 style={{ fontFamily:'Bangers', color:'#35a5af', fontSize:'80px', textShadow: '3px 5px 2px rgba(0, 0,0,0.15)'}}>Description</h1>
+    <h1 style={{ fontFamily:'Bangers', color:'#adb5bd', fontSize:'80px', textShadow: '3px 5px 2px rgba(0, 0,0,0.15)'}}>Description</h1>
     <div  className='car'><Carousel slide={false} >
       <Carousel.Item>
         <img
@@ -230,7 +231,7 @@ const Description = () => {
 
 
 
-  
+
   </div>
 
   )

@@ -18,9 +18,9 @@ const MovieCard = ({movie}) => {
       </Card.Body>
       
       <Card.Body style={{backgroundColor:'rgb(19, 14, 24)'}}>
-        <Button variant="outline-info">Watch Trailer</Button>
+        <button variant="outline-info" className='bbbbb'>Watch Trailer</button>
        <div>
-      <ReactStars  count={5} size={24} activeColor="#06bbcc" edit={false} value={movie.rating}/>
+      <ReactStars  count={5} size={24} activeColor="#084298" edit={false} value={movie.rating}/>
       </div>,
       </Card.Body>
     </Card>    
